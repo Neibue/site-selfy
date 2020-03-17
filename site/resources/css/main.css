@@ -93,7 +93,7 @@ ul {
 }
 
 .section-heading {
-    margin-bottom: 5rem;
+    margin: 5rem 0 2.5rem 0;
 }
 
 .section-heading h1 {
@@ -117,10 +117,19 @@ ul {
 .information {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(5rem, 1fr));
     grid-gap: 1.5rem 0;
     text-align: center;
+    margin-bottom: 5rem;
 }
+
+.information li {
+    border-left: 2px solid #777;
+}
+
+.information li:first-child {
+    border-left: none;
+}
+
 
 .fas {
     font-size: 5rem;
@@ -147,8 +156,8 @@ ul {
 }
 
 .informations {
-    padding: 0 0 3rem 0;
     border-bottom: 2px solid #777;
+    margin-top: 2.5rem;
 }
 
 .resume {
@@ -272,6 +281,6 @@ p.has-margin {
     border-radius: 10px;
 }
 
-.caroussel:first-child{
+.caroussel:first-child {
     background-color: yellow;
 }
