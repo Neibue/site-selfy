@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #444444;
+}
+
+body {
+    width: 100%;
+    display: block;
+}
+
+header {
+    background-color: #bbbbbb;
+    height: 80vh;
+    background-image: url(/site/resources/images/head-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top-nav {
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border-bottom: 2px solid #444444;
+}
+
+.top-nav img {
+    height: 80px;
+    margin: 0 auto 0 0;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.top-nav ul li {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: auto 2rem;
+}
+
+.container .head-text {
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    width: 30%;
+}
+
+.head-text h1 h5 h6 {
+    margin: 1.2rem 0;
+}
+
+.head-text h1 {
+    font-size: 5rem;
+}
+
+.head-text h5 {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.head-text h6 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.section-heading {
+    margin-bottom: 5rem;
+}
+
+.section-heading h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.section-heading h1 span {
+    font-size: 5rem;
+    color: yellow;
+}
+
+.section-heading h6 {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-gap: 1.5rem 0;
+    text-align: center;
+}
+
+.fas {
+    font-size: 5rem;
+    color: rgb(255, 238, 0);
+}
+
+.fa-shoe-prints {
+    transform: rotate(-90deg);
+}
+
+.information li h1,
+.information li h6 {
+    margin: 1rem 0 0 0;
+}
+
+.information li h1 {
+    font-size: 2rem;
+    color: #777;
+}
+
+.information li h6 {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.informations {
+    padding: 0 0 3rem 0;
+    border-bottom: 2px solid #777;
+}
+
